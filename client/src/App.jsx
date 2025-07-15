@@ -19,6 +19,7 @@ const App = () => {
       <LandingPage />
       <MiddleInfoPage />
       <Projects />
+      <HappyClients />
       <About />
       <NewsletterSubscription />
     </div>

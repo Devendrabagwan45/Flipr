@@ -1,30 +1,34 @@
 import React from "react";
-import clientImages from "../assets/assets";
+// import clientImages from "../assets/assets";
 
 const HappyClients = () => {
   const clients = [
     {
       name: "Hassan Smith",
       feedback: "I have been incredibly pleased with the services provided.",
-      img: `${clientImages.image1}`,
+      // img: `${clientImages.image1}`,
+      img: "/1.jpg",
       designation: "Employe, Company A",
     },
     {
       name: "Elvira Kayak",
       feedback: "The team was very professional and attentive.",
-      img: `${clientImages.image2}`,
+      // img: `${clientImages.image2}`,
+      img: "/2.jpg",
       designation: "Manager, Company B",
     },
     {
       name: "John Lopez",
       feedback: "Excellent experience and fantastic results.",
-      img: `${clientImages.image3}`,
+      // img: `${clientImages.image3}`,
+      img: "/3.jpg",
       designation: "Designer, Company C",
     },
     {
       name: "Marty Freeman",
       feedback: "The project was handled with utmost care and dedication.",
-      img: `${clientImages.image4}`,
+      // img: `${clientImages.image4}`,
+      img: "/4.jpg",
       designation: "Director, Company D",
     },
   ];
