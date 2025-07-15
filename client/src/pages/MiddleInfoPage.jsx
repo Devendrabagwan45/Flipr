@@ -1,5 +1,3 @@
-import React from "react";
-
 const MiddleInfoPage = () => {
   return (
     <div className="bg-gray-200 p-8 h-screen">

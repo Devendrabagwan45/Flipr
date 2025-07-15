@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <div className="relative bg-gray-200 py-16 px-6 sm:px-12 lg:px-24 overflow-hidden">

@@ -10,15 +10,7 @@ export default function NewsletterSubscription() {
       return;
     }
 
-    // Fake backend request simulation
     try {
-      // Here you would implement the real backend call, for example:
-      // await fetch('/api/subscribe', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ email }),
-      // });
-
       setMessage("Subscription successful!");
       setEmail("");
     } catch (error) {
